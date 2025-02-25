@@ -98,6 +98,9 @@ header .fale-conosco:hover {
     cursor: pointer;
 }
 
+.menu-hamburguer img {
+    width: 50px;
+}
 
 
 
@@ -1122,5 +1125,434 @@ footer {
 
 /* Telefone: 0 - 650px */
 @media (max-width: 650px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #892381;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens */
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        top: 70px; /* Mantém abaixo do header */
+        width: 100%;
+        background: #892381; /* Cor de fundo */
+        padding: 15px 0;
+    }
     
+    /* Ajustando os links dentro do menu */
+    .nav-links.active li {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Links */
+    .nav-links.active a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        display: block;
+        padding: 8px 0;
+        text-align: center;
+    }
+    
+    /* Ajustando o botão "Fale Conosco" */
+    .nav-links.active .fale-conosco {
+        color: #892381;
+        border-radius: 20px;
+        font-weight: bold;
+        padding: 10px 25px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    nav {
+        padding-right: 20px;
+    }
+
+
+
+
+
+
+
+    /*section home */
+
+    .section-home {
+        align-items: center;
+        background-image: none;
+        background-color: #892381;
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        justify-content: end;
+    }
+
+    .section-home div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-home .p1, .p2 {
+        margin-left: 0;
+        white-space: pre-line;
+    }
+
+    .p1 {
+        margin-bottom: 100px;
+    }
+    
+    .p2 {
+        margin-bottom: 100px;
+    }
+    
+    
+    .p2 {
+        font-size: 25px;
+   
+    }
+    
+    .home-div2 {
+        align-items: end;
+        display: flex;
+        justify-content: end;
+    }
+
+    /* section nossa marca */
+
+    .sectionMarca {
+        flex-direction: column;
+    }
+
+    .container-nossa-marca {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-nossa-marca {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    #p-jonathan {
+        font-family: 'Jonathan Signature', sans-serif;    
+        font-size: 150px;  
+        color: #892381; 
+        line-height: 0.8;  
+        padding-top: 80px;                                      
+    }
+
+    .descricao-nossa-marca {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .descricao-docca {
+        padding: 30px;
+    }
+
+    .descricao-docca p {
+        margin-bottom: 30px;
+        font-weight: 500;
+        white-space: pre-line;
+    }
+
+    .logo-celular {
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-celular img {
+        width: 290px;
+        height: 500px;
+    }
+
+    #docca-img {
+        width: 100px;
+    }
+
+    #ancora-img {
+        width: 50px;
+    }
+
+    #d-img {
+        width: 50px;
+    }
+
+    #circulo-img {
+        width: 50px;
+    }
+
+
+
+
+    .section-nosso-time {
+        height: 110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-nosso-time div{
+        padding: 10px 0px;
+    }
+    
+    .section-nosso-time p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .section-nosso-time a {
+        padding: 8px 30px; 
+    }
+    
+    /* section animais  */
+
+    .section-animais {
+        display: inline;
+    }
+
+    .div-animais {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .div-animais-descricao {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .box-imagens {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 50%;
+        height: 200px;
+    }
+
+    .box img {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-animais-descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-animais {
+        width: 200px;
+        padding-top: 50px;
+    }
+
+    .div-animais-descricao p {
+        font-size: 19px;
+    }
+
+    /* section soluções */
+
+    .section-solucoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section-solucoes h1 {
+        text-align: center;
+        padding: 100px  0px;
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .container-solucoes {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2;
+
+    }
+
+    .solucoes-quadrados {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 30px 0px;
+    }
+
+    .solucoes-imagem {
+        display: none;
+    }
+
+    .solucoes-imagem img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box-solucoes {
+        width: 150px;
+        height: 160px;
+        border-radius: 40px;
+        border: 1px solid #6a008a;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    #box-1 {
+        background-color: #892381;
+        color: white;
+    }
+
+    .box-solucoes img {
+        width: 70px;
+        height: auto;
+        display: none;
+    }
+
+    .box-solucoes h3 {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .box-solucoes p {
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    /* section Perguntas frequentes */
+
+
+    .faq-container {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .faq-container h2 {
+        padding: 25px 0;
+        font-size: 25px;
+        color: #892381;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .faq-item {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .faq-pergunta {
+        width: 100%;
+        background-color: #892381;
+        color: white;
+        border: none;
+        border-radius: 10px 10px 0 0;
+        padding: 15px;
+        text-align: left;
+        font-weight: 500;
+        font-size: 13px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-pergunta .icon {
+        font-size: 25px;
+        transition: transform 0.3s;
+    }
+
+    .faq-resposta {
+        display: none;
+        padding: 20px;
+        background-color: #e9d8f0;
+        color: #892381;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .faq-item.active .faq-resposta {
+        display: block;
+    }
+
+
+    footer {
+        height: 100px;
+    }
+    
+    .footer-img {
+        width: 55%;
+    }
+    
+    .footer-img img {
+        width: 150px;
+    }
+    
+    .footer-descricao {
+        text-align: left;
+        width: 45%;
+    }
+
+    .footer-descricao p {
+        font-size: 10px;
+    }
 }
