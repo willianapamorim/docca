@@ -1,0 +1,1126 @@
+/*
+0 - 650px:      Telefone
+650 - 900px:    Tablet em retrato
+900 - 1200px:   Tablet em paisagem
+1200 - 1800px:  estilo normal
+1800px + :Desktop grande
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+header {
+    align-items: center;
+    background: linear-gradient(to bottom, #892381,rgba(137, 35, 128, 0.91));
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    max-width: 100%;
+}
+
+nav {
+    padding-right: 80px;
+}
+
+header div img {
+    padding-left: 40px;
+    width: 160px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}  
+
+header nav a {
+    color: #ece6e6;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0px 12px;
+    text-align: right;
+    text-decoration: none;
+    transition: color 0.9s ease;
+}
+
+header nav a:hover {
+    color: #6a008a;
+}
+
+header .fale-conosco {
+    background-color: #ffffff;  
+    border-radius: 20px;
+    color: #6a008a;                  
+    font-weight: bold; 
+    margin-left: 50px;   
+    padding: 10px 20px;         
+    transition: 0.3s;    
+    transition: color 0.9s ease;    
+}
+
+header .fale-conosco:hover {
+    color: #ece6e6;
+}
+
+.menu-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section home */
+
+.section-home {
+    align-items: end;
+    background-image: url(img/Background\ site.png);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: end;
+    width: 100%;
+    max-width: 100%;
+}
+
+.section-home div {
+    width: 50%;
+}
+
+
+.section-home .p1, .p2 {
+    color: #ece6e6;
+    margin-left: 100px;
+    white-space: pre-line;
+}
+
+.p2 {
+    margin-bottom: 100px;
+}
+
+.section-home .p1 {
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+.section-home .p2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.home-div2 {
+    align-items: end;
+    display: flex;
+    justify-content: end;
+}
+
+.home-div2 img {
+    margin: 20px 50px;
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-div2 img:hover {
+    transform: scale(1.2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section nossa marca */
+
+.sectionMarca {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.container-nossa-marca {
+    display: flex;
+}
+
+.logo-nossa-marca {
+    width: 45%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#p-jonathan {
+    font-family: 'Jonathan Signature', sans-serif;    
+    font-size: 200px;  
+    color: #892381; 
+    line-height: 0.8;  
+    padding-top: 80px;                                      
+}
+
+.descricao-nossa-marca {
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.descricao-docca {
+    padding: 30px;
+}
+
+.descricao-docca p {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.logo-celular {
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-celular img {
+    width: 400px;
+    height: 500px;
+}
+
+#docca-img {
+    width: 120px;
+}
+
+#ancora-img {
+    width: 60px;
+}
+
+#d-img {
+    width: 60px;
+}
+
+#circulo-img {
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+/* section nosso time */
+
+.section-nosso-time {
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    background-color: #892381;
+    color: #ece6e6;
+    margin-top: 20px;
+}
+
+.section-nosso-time div{
+    padding: 10px 50px;
+}
+
+.section-nosso-time p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section-nosso-time a {
+    padding: 10px 30px; 
+    background-color: #ffffff; 
+    color: #892381; 
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: none; 
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* section animais  */
+
+.section-animais {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.div-animais {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.div-animais-descricao {
+    width: 45%;
+    height: auto;
+}
+
+.box-imagens {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+}
+
+.box img {
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+}
+
+.div-animais-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-animais {
+    width: 300px;
+    padding-top: 50px;
+}
+
+.div-animais-descricao p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27px;
+    color: #892381;
+}
+
+.div-animais-descricao a {
+    padding: 10px 50px; 
+    background-color: #892381; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* section soluções */
+
+.section-solucoes {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-solucoes h1 {
+    width: 100%;
+    text-align: end;
+    padding: 40px;
+    font-size: 40px;
+    color: #892381;
+    padding-right: 130px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container-solucoes {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.solucoes-quadrados {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+}
+
+.solucoes-imagem {
+    overflow: hidden;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solucoes-imagem img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.box-solucoes {
+    width: 200px;
+    height: 160px;
+    border-radius: 40px;
+    border: 1px solid #6a008a;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#box-1 {
+    background-color: #892381;
+    color: white;
+}
+
+.box-solucoes img {
+    width: 80px;
+    height: auto;
+}
+
+.box-solucoes h3 {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.box-solucoes p {
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+/* section Perguntas frequentes */
+
+.section-perguntas {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.faq-container {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.faq-container h2 {
+    padding: 25px 0;
+    font-size: 30px;
+    color: #892381;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.faq-pergunta {
+    width: 100%;
+    background-color: #892381;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-pergunta .icon {
+    font-size: 25px;
+    transition: transform 0.3s;
+}
+
+.faq-resposta {
+    display: none;
+    padding: 20px;
+    background-color: #e9d8f0;
+    color: #892381;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.faq-item.active .faq-resposta {
+    display: block;
+}
+
+.faq-item.active .faq-pergunta .icon {
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #892381;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img {
+    width: 75%;
+}
+
+.footer-img img {
+    width: 200px;
+}
+
+.footer-descricao {
+    text-align: left;
+    width: 25%;
+}
+
+
+
+
+
+
+/* Desktop grande: 1800px+ */
+@media (min-width: 1800px) {
+
+}
+
+
+
+
+
+
+
+
+
+/* Estilo normal: 1200 - 1800px */
+@media (min-width: 1200px) and (max-width: 1800px) {
+
+}
+
+
+
+
+
+
+
+/* Tablet em paisagem: 900 - 1200px */
+@media (min-width: 900px) and (max-width: 1200px) {
+    
+    header div img {
+        width: 150px;
+    }
+
+    header nav a {
+        font-size: 14px;
+    }
+    
+    .section-home {
+        background-color: #892381;
+        height: 500px;
+        min-height: 100vh;
+        justify-content: start;
+        align-items: end;
+        padding-bottom: 50px;
+    }
+
+    .section-home .p1 {
+        font-size: 35px;
+    }
+
+    .home-div2 img {
+        margin: 0 30px;
+    }
+
+    #p-jonathan {
+        font-size: 150px;
+    }
+
+    .descricao-docca {
+        padding: 10px 30px;
+    }
+
+    .descricao-docca p {
+        font-size: 12px;
+    }
+
+    .logo-celular img {
+        width: 300px;
+        height: 400px;
+    }
+
+    #docca-img {
+        width: 80px;
+    }
+    
+    #ancora-img {
+        width: 40px;
+    }
+    
+    #d-img {
+        width: 40px;
+    }
+    
+    #circulo-img {
+        width: 40px;
+    }
+    
+    .section-nosso-time p {
+        font-size: 20px;
+    }
+
+    .box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .div-animais-descricao img {
+        width: 250px;
+    }
+
+    .div-animais-descricao p {
+        font-size: 22px;
+    }
+
+    .solucoes-quadrados {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .solucoes-imagem {
+        width: 40%;
+    }
+    
+    .box-solucoes {
+        width: 150px;
+    }
+
+    .box-solucoes img {
+        width: 50px;
+    }
+
+    .solucoes-imagem img {
+        width: 600px;
+        height: auto;
+    }
+
+    .faq-container {
+        max-width: 600px;
+    }
+
+    .faq-container h2 {
+        font-size: 27px;
+    }
+
+    .faq-pergunta {
+        font-size: 16px;
+    }
+
+    .footer-img {
+        width: 60%;
+    }
+    
+    .footer-img img {
+        width: 190px;
+    }
+    
+    .footer-descricao {
+        width: 40%;
+    }
+
+    .footer-descricao p {
+        font-size: 15px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* Tablet em retrato: 650 - 900px */
+@media (min-width: 650px) and (max-width: 900px) {
+
+    header {
+        width: 100vw;
+        justify-content: space-around;
+    }
+    
+    header div img {
+        padding-left: 30px;
+        width: 130px;
+    }
+
+    header nav {
+        padding: 0;
+    }
+    
+    header nav a {
+        font-size: 12px;
+    }
+
+    header .fale-conosco {        
+        margin-left: 0;   
+        padding: 10px 15px;           
+    }
+
+    .section-home {
+        align-items: center;
+        background-image: none;
+        background-color: #892381;
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        justify-content: end;
+    }
+
+    .section-home div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-home .p1, .p2 {
+        margin-left: 0;
+        white-space: pre-line;
+    }
+
+    .p1 {
+        margin-bottom: 100px;
+    }
+    
+    .p2 {
+        margin-bottom: 100px;
+    }
+    
+    
+    .p2 {
+        font-size: 25px;
+   
+    }
+    
+    .home-div2 {
+        align-items: end;
+        display: flex;
+        justify-content: end;
+    }
+
+
+
+    /* section nossa marca */
+
+    .sectionMarca {
+        flex-direction: column;
+    }
+
+    .container-nossa-marca {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-nossa-marca {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    #p-jonathan {
+        font-family: 'Jonathan Signature', sans-serif;    
+        font-size: 180px;  
+        color: #892381; 
+        line-height: 0.8;  
+        padding-top: 80px;                                      
+    }
+
+    .descricao-nossa-marca {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .descricao-docca {
+        padding: 30px;
+    }
+
+    .descricao-docca p {
+        margin-bottom: 30px;
+        font-weight: 500;
+        white-space: pre-line;
+    }
+
+    .logo-celular {
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-celular img {
+        width: 290px;
+        height: 500px;
+    }
+
+    #docca-img {
+        width: 100px;
+    }
+
+    #ancora-img {
+        width: 50px;
+    }
+
+    #d-img {
+        width: 50px;
+    }
+
+    #circulo-img {
+        width: 50px;
+    }
+
+    .section-nosso-time {
+        height: 90px;
+    }
+    
+    .section-nosso-time div{
+        padding: 10px 50px;
+    }
+    
+    .section-nosso-time p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .section-nosso-time a {
+        padding: 8px 30px; 
+    }
+    
+    /* section animais  */
+
+    .section-animais {
+        display: inline;
+    }
+
+    .div-animais {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .div-animais-descricao {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .box-imagens {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 230px;
+        height: 230px;
+    }
+
+    .box img {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-animais-descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-animais {
+        width: 200px;
+        padding-top: 50px;
+    }
+
+    .div-animais-descricao p {
+        font-size: 23px;
+    }
+
+    /* section soluções */
+
+    .section-solucoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section-solucoes h1 {
+        text-align: center;
+        padding: 100px  0px;
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .container-solucoes {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2;
+
+    }
+
+    .solucoes-quadrados {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 30px 0px;
+    }
+
+    .solucoes-imagem {
+        display: none;
+    }
+
+    .solucoes-imagem img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box-solucoes {
+        width: 150px;
+        height: 160px;
+        border-radius: 40px;
+        border: 1px solid #6a008a;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    #box-1 {
+        background-color: #892381;
+        color: white;
+    }
+
+    .box-solucoes img {
+        width: 70px;
+        height: auto;
+        display: none;
+    }
+
+    .box-solucoes h3 {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .box-solucoes p {
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    /* section Perguntas frequentes */
+
+
+    .faq-container {
+        max-width: 500px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .faq-container h2 {
+        padding: 25px 0;
+        font-size: 30px;
+        color: #892381;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .faq-item {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .faq-pergunta {
+        width: 100%;
+        background-color: #892381;
+        color: white;
+        border: none;
+        border-radius: 10px 10px 0 0;
+        padding: 15px;
+        text-align: left;
+        font-weight: 500;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-pergunta .icon {
+        font-size: 25px;
+        transition: transform 0.3s;
+    }
+
+    .faq-resposta {
+        display: none;
+        padding: 20px;
+        background-color: #e9d8f0;
+        color: #892381;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .faq-item.active .faq-resposta {
+        display: block;
+    }
+
+
+    footer {
+        height: 100px;
+    }
+    
+    .footer-img {
+        width: 60%;
+    }
+    
+    .footer-img img {
+        width: 150px;
+    }
+    
+    .footer-descricao {
+        text-align: left;
+        width: 40%;
+    }
+
+    .footer-descricao p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+/* Telefone: 0 - 650px */
+@media (max-width: 650px) {
+    
+}
