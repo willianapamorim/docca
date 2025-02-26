@@ -206,6 +206,7 @@ header .fale-conosco:hover {
     display: flex;
     justify-content: center;
     align-items: start;
+    background-color: #fff;
 }
 
 #p-jonathan {
@@ -213,17 +214,20 @@ header .fale-conosco:hover {
     font-size: 200px;  
     color: #892381; 
     line-height: 0.8;  
-    padding-top: 80px;                                      
+    padding-top: 80px;     
+    background-color: #fff                                
 }
 
 .descricao-nossa-marca {
     width: 50%;
     height: auto;
     display: flex;
+    background-color: #fff;
 }
 
 .descricao-docca {
     padding: 30px;
+    background-color: #fff;
 }
 
 .descricao-docca p {
@@ -236,6 +240,7 @@ header .fale-conosco:hover {
     height: 85vh;
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
 .logo-celular img {
@@ -332,11 +337,13 @@ header .fale-conosco:hover {
     display: flex;
     justify-content: end;
     align-items: center;
+    background-color: #fff;
 }
 
 .div-animais-descricao {
     width: 45%;
     height: auto;
+    background-color: #fff;
 }
 
 .box-imagens {
@@ -362,11 +369,13 @@ header .fale-conosco:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .logo-animais {
     width: 300px;
     padding-top: 50px;
+    background-color: #fff;
 }
 
 .div-animais-descricao p {
@@ -374,6 +383,7 @@ header .fale-conosco:hover {
     margin-top: 10px;
     font-size: 27px;
     color: #892381;
+    background-color: #fff;
 }
 
 .div-animais-descricao a {
@@ -423,6 +433,7 @@ header .fale-conosco:hover {
     display: flex;
     justify-content: space-between;
     gap: 0;
+    background-color: #fff;
 }
 
 .solucoes-quadrados {
@@ -431,6 +442,7 @@ header .fale-conosco:hover {
     width: 65%;
     flex-wrap: wrap;
     padding: 30px 10px;
+    background-color: #fff;
 }
 
 .solucoes-imagem {
@@ -439,6 +451,7 @@ header .fale-conosco:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .solucoes-imagem img {
@@ -456,6 +469,7 @@ header .fale-conosco:hover {
     flex-direction: column;
     padding: 30px;
     margin-bottom: 30px;
+    background-color: #fff;
 }
 
 #box-1 {
@@ -498,6 +512,7 @@ header .fale-conosco:hover {
     max-width: 700px;
     margin: auto;
     margin-top: 150px;
+    background-color: #fff;
 }
 
 .faq-container h2 {
@@ -506,11 +521,13 @@ header .fale-conosco:hover {
     color: #892381;
     font-weight: 500;
     font-style: italic;
+    background-color: #fff;
 }
 
 .faq-item {
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
+    background-color: #fff;
 }
 
 .faq-pergunta {
